@@ -1,38 +1,279 @@
-<!DOCTYPE html>
-<html lang="sv" dir="ltr">
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
+<! DOCTYPE html>
 
-<body>
-<div id="wrapper">
-  <header>
-    logga
-  </header>
-  <nav>
-    <a href="index.html"> start</a>
-    <a href="chassie.html"> chassie</a>
-    <a href="cpu.html"> cpu</a>
-    <a href="kontakta.html">Kontakt</a>
+<html lang="en" dir="ltr"
 
 
-  </nav>
-  <div id="center">
-    <aside>
-    </aside>
-    <main>
-      detta är start sidan
-    </main>
-    <aside>
-    </aside>
-  </div>
-  <footer>
 
-  </footer>
+
+
+
+
+    <head>
+
+
+
+      <meta charset="utf-8">
+
+      <title> Lexus sida </title>
+
+      <link rel="stylesheet" href="css/master.css">
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+
+
+
+    <body>
+
+
+
+      <h2>Datorns uppbyggnad</h2>
+
+      <div id="wrapper">
+
+
+
+
+
+
+
+        <header>
+
+
+
+
+
+                      <a href="index.html">
+
+
+
+                       <button class="btn" id="btn1" type="button" name="button">hem</button>
+
+
+
+                      </a>
+
+
+
+                      <a href="chassie.html">
+
+
+
+                        <button class="btn"id="btn2" type="button" name="button">Chassi</button>
+
+
+
+                      </a>
+
+
+
+                      <a href="cpu.html">
+
+
+
+                        <button class="btn" id="btn3" type="button" name="button">Processor</button>
+
+
+
+                      </a>
+
+
+
+                      <a href="gpu.html">
+
+
+
+                        <button class="btn" id="active" type="button" name="button">Grafikkort</button>
+
+
+
+                      </a>
+
+
+
+                      <a href="RAM.html">
+
+
+
+                        <button class="btn" id="btn5" type="button" name="button">Arbetsminne</button>
+
+
+
+                      </a>
+
+
+
+                      <a href="Nätaggregat.html">
+
+
+
+                        <button class="btn" id="btn6" type="button" name="button">Nätagregat</button>
+
+
+
+                      </a>
+
+                      <a href="hårddisk.html">
+
+
+
+                        <button class="btn" id="btn6" type="button" name="button">Hårddisk</button>
+
+
+
+                      </a>
+
+
+
+                    <a href="refferenser.html">
+
+
+
+                      <button class="btn" id="btn6" type="button" name="button">refferenser</button>
+
+
+
+                    </a>
+
+
+
+
+
+
+
+        </header>
+
+<hr>
+
+<br>
+
+<br>
+
+<br>
+
+
+
+
+
+      <div id="mainwrapper">
+
+        <main>
+
+                            <!--<img src="img/testbild.jpg" alt="testbild.jpg"> -->
+
+        <div id="wrapperbox">
+
+
+
+          <div   id="topleft">
+
+ Den dator som vi är vana vid att se och är vanligast är uppbyggda enligt “von Neumann-arkitekturen”.
+
+  Detta är en form att bygga upp en dator på med hjälp utav olika komponenter där de viktigaste nämns i länkarna i menyn.
+
+<br>
+
+<br>
+
+
+
+Är du ute efter att köpa dessa komponenter till din dator eller bara är nyfiken på vad dessa är?
+
+ Klicka dig vidare på de olika länkarna i menyn så hittar du mer!
+
+
+
+ <br>
+
+ <br>
+
+<br>
+
+<br>
+
+<br>
+
+<hr>
+
+<br>
+
+<br>
+
+
+
+ Detta är ett arbete som gjorts under en grundkurs utav webbutveckling i kursen Teknik 1a på Birger Sjöberggymnasiet.
+
+ Hemsidan är skapad utav Lexus Igestrand i BTE 19 med handledning av Daniel Andersson.
+
+          </div>
+
+          <div id="topright">
+
+         <img src="img/Dator uppbyggnad.jpg" alt="fin bild" width="500px">
+
+          </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+      </main>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
 
 </div>
 
-</body>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <script>
+
+
+
+        $("#topleft").click(function(){
+
+          console.log("hej");
+
+          $("#topleft").css("background-color,lightgreen")
+
+$("#topright").toggle("slow",function() {
+
+//animation complete
+
+});
+
+
+
+
+
+        });
+
+
+
+        </script>
+
+  </body>
 
 </html>
